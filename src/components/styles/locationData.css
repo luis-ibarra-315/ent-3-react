@@ -1,0 +1,31 @@
+.location{
+    background-color: #072226;
+    padding: 20px;
+    border-radius:20px ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.location——name{
+    color: #7CBA24;
+}
+
+.location——list{
+    display: flex;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.location——item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.location——item:last-child{
+    color: #777;
+}
